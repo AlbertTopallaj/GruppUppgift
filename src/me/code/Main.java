@@ -12,6 +12,8 @@ public class Main {
         CustomArrayList<Object> list = new CustomArrayList<>();
         CustomArrayList<Object> stringList = new CustomArrayList<>();
 
+
+
         list.display();
         stringList.display();
 
@@ -69,5 +71,11 @@ public class Main {
          System.out.println(DTOuser);
 
         }
+        AnnotationTest annotationTest = new AnnotationTest();
+
+        annotationTest.run();
+
     }
+
+
 }
