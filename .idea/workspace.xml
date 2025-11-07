@@ -5,18 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="438476e1-a910-4797-89a0-28865557f7e0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/me/code/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/code/Main.java" afterDir="false" />
+    </list>
+    <list id="899ae714-73af-42f7-bebd-a80fbea35aa8" name="Changes by tonyle" comment="">
+      <change beforePath="$PROJECT_DIR$/src/me/code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/code/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/me/code/Main.java">
+      <ranges>
+        <range start1="8" end1="8" start2="8" end2="28" changelist="899ae714-73af-42f7-bebd-a80fbea35aa8" />
+        <range start1="24" end1="25" start2="44" end2="44" changelist="438476e1-a910-4797-89a0-28865557f7e0" />
+        <range start1="26" end1="27" start2="45" end2="45" changelist="438476e1-a910-4797-89a0-28865557f7e0" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
