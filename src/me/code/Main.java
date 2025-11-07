@@ -1,11 +1,14 @@
 package me.code;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchMethodException {
         CustomArrayList<Object> list = new CustomArrayList<>();
         CustomArrayList<Object> stringList = new CustomArrayList<>();
 
@@ -26,6 +29,16 @@ public class Main {
 
         stringList.clear();
         list.clear();
+
+        Class<?> clazz = Class.forName("me.code.Calculator");
+        Constructor<?> constructor = clazz.getDeclaredConstructor(int.class);
+        constructor.setAccessible(true);
+        Object object = constructor.newInstance(1);
+
+        Method method = clazz.getDeclaredMethod("add", int.class);
+        method.setAccessible(true);
+        Object result = method.invoke(object, 2);
+        System.out.println(result); //should print 3
 
         UserService userService = new UserService();
 
